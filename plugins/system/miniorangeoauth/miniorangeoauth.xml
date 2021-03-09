@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_MINIORANGEOAUTH</name>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>www.miniorange.com</authorUrl>
+	<creationDate>Jan 2018</creationDate>
+	<copyright>Copyright 2015 miniOrange. All Rights Reserved.</copyright>
+	<license>http://miniorange.com/usecases/miniOrange_User_Agreement.pdf</license>
+	<version>1.4.3</version>
+	<description>PLG_SYSTEM_MINIORANGEOAUTH_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="miniorangeoauth">miniorangeoauth.php</filename>
+		<folder>assets</folder>
+	</files>
+	<config />
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_miniorangeoauth.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_miniorangeoauth.sys.ini</language>
+	</languages>
+	<scriptfile>my_script.php</scriptfile>
+	<component>
+	
+	</component>
+</extension>
